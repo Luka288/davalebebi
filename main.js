@@ -35,3 +35,18 @@ if (checkRefreshToken) {
 } else {
   console.log("user does not exists");
 }
+
+// switch case
+
+let defaultWeather = "";
+
+switch (defaultWeather) {
+  case "rain":
+    return console.log("rain weather");
+  case "cloudy":
+    return console.log("cloudy weather");
+  case "fog":
+    return console.log("fog weather");
+  default:
+    return console.log("clear day");
+}
