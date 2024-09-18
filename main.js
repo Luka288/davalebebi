@@ -1,3 +1,4 @@
+// user login implementation
 let userEmail = "lukagaxokidze28@gmail.com";
 let userPassowrd = "12345678";
 
@@ -11,7 +12,7 @@ if (userPassowrd === "12345678" && userEmail === "lukagaxokidze28@gmail.com") {
   console.log("error check email/passowrd");
 }
 
-//
+// user change
 
 let balance = 300;
 
@@ -24,7 +25,7 @@ if (balance > item1 && item2 && item3) {
   console.log("Your change is: " + change);
 }
 
-//
+//  checking user jwt token
 
 let checkRefreshToken =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c";
