@@ -42,11 +42,15 @@ let defaultWeather = "";
 
 switch (defaultWeather) {
   case "rain":
-    return console.log("rain weather");
+    console.log("rain weather");
+    break;
   case "cloudy":
-    return console.log("cloudy weather");
+    console.log("cloudy weather");
+    break;
   case "fog":
-    return console.log("fog weather");
+    console.log("fog weather");
+    break;
   default:
-    return console.log("clear day");
+    console.log("clear day");
+    break;
 }
