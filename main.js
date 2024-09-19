@@ -1,4 +1,4 @@
-let num = 55;
+let num = 100;
 
 if (num < 50) {
   console.log("ნაკლებია 50 ზე");
