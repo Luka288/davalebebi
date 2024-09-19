@@ -1,56 +1,32 @@
-// user login implementation
-let userEmail = "lukagaxokidze28@gmail.com";
-let userPassowrd = "12345678";
+let num = 55;
 
-if (userPassowrd === "12345678" && userEmail === "lukagaxokidze28@gmail.com") {
-  console.log("Signed In !");
-} else if (!userPassowrd === "12345678") {
-  console.log("passowrd is invalid");
-} else if (!userEmail === "lukagaxokidze28@gmail.com") {
-  console.log("email is invalid");
+if (num < 50) {
+  console.log("ნაკლებია 50 ზე");
+} else if (num > 20) {
+  console.log("მეტია 20 ზე");
 } else {
-  console.log("error check email/passowrd");
+  console.log("შეცდომა");
 }
 
-// user change
+//2
 
-let balance = 300;
+let useName = "მარიამ";
 
-let item1 = 150;
-let item2 = 100;
-let item3 = 25;
-
-if (balance > item1 && item2 && item3) {
-  let change = balance - item1 && item2 && item3;
-  console.log("Your change is: " + change);
-}
-
-//  checking user jwt token
-
-let checkRefreshToken =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c";
-
-if (checkRefreshToken) {
-  console.log("user is signed in");
+if (useName === "მარიამ") {
+  console.log(true);
 } else {
-  console.log("user does not exists");
+  console.log(false);
 }
 
-// switch case
+//switch case
 
-let defaultWeather = "";
+let UserName = "მარიამ";
 
-switch (defaultWeather) {
-  case "rain":
-    console.log("rain weather");
-    break;
-  case "cloudy":
-    console.log("cloudy weather");
-    break;
-  case "fog":
-    console.log("fog weather");
+switch (UserName) {
+  case "მარიამ":
+    console.log(true);
     break;
   default:
-    console.log("clear day");
+    console.log(false);
     break;
 }
